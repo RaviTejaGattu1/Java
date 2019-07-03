@@ -1,0 +1,19 @@
+public static boolean hasSameLastDigit(int a , int b, int c){
+        int f1,s1,t1;
+        if(a>1000||a<10||b<10||b>1000||c<10||c>1000)
+            return false;
+        else
+        {
+
+            f1=a%10;
+            s1=b%10;
+            t1=c%10;
+
+
+            if(f1==s1||f1==t1||s1==t1)
+                return true;
+            else return false;
+        }
+
+
+    }
