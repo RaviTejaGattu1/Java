@@ -1,0 +1,18 @@
+ public static int getEvenDigitSumt(int number){
+        int sum=0,check;
+        while(number>0){
+            check=number%10;
+            number=number/10;
+            if(check%2==0){
+                sum=sum+check;
+
+            }
+            else
+                continue;
+
+        }
+        return sum;
+
+
+
+    }
